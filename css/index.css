@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    color: springgreen;
+    background-color: black;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: springgreen;
+    cursor: pointer;
+
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    cursor: pointer;
+
+}
+
+.container {
+    padding: 0px 50px;
+
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgba(25, 251, 138, 0.882);
+    
+}
+
+.imagem-header {
+    text-align: center;
+    padding-top: 55px;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 0px 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 30px;
+    border: none;
+
+}
+
+h1 a {
+    color: springgreen;
+    text-decoration: none;
+}
+
+h1:hover {
+    color: #fff;
+    cursor: pointer;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 0px 0px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    padding-bottom: 45px;
+
+}
+
+h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-style: italic;
+    padding-bottom: 22px;
+    padding-top: 28px;
+
+}
+
+p {
+    color: rgb(203, 212, 220);
+    
+}
+
+p a {
+    color: rgba(247, 243, 243, 0.952);
+
+}
+
+p a:hover {
+    color: springgreen;
+
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.sociais {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.sociais li {
+    margin: 0 10px;
+
+}
+
+.sociais a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.sociais a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.sociais a:hover i {
+    color: aqua;
+    
+}
+
+
+
+
