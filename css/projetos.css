@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    color: springgreen;
+    background-color: black;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: springgreen;
+    cursor: pointer;
+
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+nav ul {
+    list-style-type: none;
+    cursor: pointer;
+
+}
+
+.container {
+    padding: 0px 50px;
+
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgba(25, 251, 138, 0.882);
+    
+}
+
+.imagem-header {
+    text-align: center;
+    padding-top: 55px;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 0px 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 30px;
+    border: none;
+
+}
+
+h1 a {
+    color: springgreen;
+    text-decoration: none;
+
+}
+
+h1 a:hover {
+    color: blueviolet;
+    cursor: pointer;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 0px 0px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    padding-bottom: 45px;
+
+}
+
+h3 {
+    color: #fff;
+    padding-top: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+.relogio-digital h4 {
+    font-size: 27px;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    
+}
+
+.relogio-digital p {
+    color: rgba(240, 248, 255, 0.9);
+
+}
+
+.relogio-digital a {
+    text-decoration: none;
+    color: springgreen;
+    
+}
+
+.relogio-digital a:hover {
+    color: blueviolet;
+
+}
+
+.relogio-digital img {
+    width: 310px;
+    height: 170px;
+    padding-top: 27px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pagina-de-registro h4 {
+    font-size: 27px;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    
+}
+
+.pagina-de-registro p {
+    color: rgba(240, 248, 255, 0.9);
+
+}
+
+.pagina-de-registro a {
+    text-decoration: none;
+    color: springgreen;
+    
+}
+
+.pagina-de-registro a:hover {
+    color: blueviolet;
+
+}
+
+.pagina-de-registro img {
+    width: 310px;
+    height: 200px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+hr {
+    padding-bottom: 20px;
+    margin: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+
+.pos-projeto p {
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.pos-projeto a {
+    color: springgreen;
+
+}
+
+.pos-projeto a:hover {
+    color: blueviolet;
+    cursor: pointer;
+
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.sociais {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+
+.sociais li {
+    margin: 0 10px;
+
+}
+
+.sociais a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.sociais a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.sociais a:hover i {
+    color: springgreen;
+    
+}

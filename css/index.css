@@ -107,12 +107,12 @@ p {
 }
 
 p a {
-    color: rgba(247, 243, 243, 0.952);
+    color: springgreen;
 
 }
 
 p a:hover {
-    color: springgreen;
+    color: blueviolet;
 
 }
 
