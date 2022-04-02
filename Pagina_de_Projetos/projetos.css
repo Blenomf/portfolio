@@ -216,7 +216,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 0.7rem 0 0.7rem 0;
 
 }
 
@@ -241,4 +241,25 @@ footer {
     color: springgreen;
     
 }
+
+footer p{
+    font-size: 11px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+
+}
+
+footer a {
+    color: springgreen;
+
+}
+
+footer a:hover {
+    color: blueviolet;
+
+}
+
+
+
 
