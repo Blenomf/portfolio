@@ -1,27 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form method="post" name="contact" netlify>
-        <p>
-          <label>Name <input type="text" name="name" placeholder="Nome" /></label>
-        </p>
-        <p>
-          <label>Email <input type="email" name="email" placeholder="Email"/></label>
-        </p>
-        <p>
-            <label for="">
-                Mensagem <input type="text" name="mensagem" placeholder="Envie aqui sua mensagem"/>
-            </label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
-</body>
+
+<html lang="pt-BR">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contato.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>Bleno Martins - Contato</title>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Sobre Mim</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="../Pagina_de_Projetos/projetos.html">Projetos</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="./contato/contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <header>
+                <div class="imagem-header">
+                    <img src="../images/Captura de tela 2022-03-30 180334.png" alt="Foto do Sr. Bleno Martins">
+                </div>
+                <h1> <a href="https://github.com/Blenomf" target="_blank">Bleno Martins</a></h1>
+                <h2>Formulario de contato</h2>
+            </header>
+
+            <form method="post" name="contact" netlify>
+                <p>
+                    <label class="nome">Name <input type="text" name="name" placeholder="Nome" /></label>
+                </p>
+                <p>
+                    <label class="email">Email <input type="email" name="email" placeholder="Email"/></label>
+                </p>
+                <p>
+                    <label class="mensagem">
+                        Mensagem <input type="text" name="mensagem" placeholder="Envie aqui sua mensagem"/>
+                    </label>
+                </p>
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+
+            <br>
+            <hr size="1px">
+            <br>
+
+            <footer>
+                <div class="footer-content">
+                    <ul class="sociais">
+                        <li><a href="https://www.facebook.com/bleno.martinsferreira.9/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://instagram.com/blenomf_" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/blenomf_" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/Blenomf" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCgfy9lU4IERwG1oXfUrDCQQ" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                    <p>Entre em contato atravez do nosso email: <a href = "mailto:blenomfoficial@gmail.com">blenomfoficial@gmail.com</a></p>
+                </div>
+            </footer>
+
+        </div>
+        
+    </body>
 </html>
