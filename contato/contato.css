@@ -118,7 +118,7 @@ form p {
 
 
 form p .mensagem {
-    padding-left: 98px;
+    padding-left: 49px;
 
 }
 
@@ -136,6 +136,16 @@ input {
     box-shadow: 4.5px 1.5px rgba(70, 221, 146, 0.773);
     
 }
+
+textarea {
+    padding: 5px;
+    border: 2px solid springgreen;
+    border-radius: 10px;
+    box-shadow: 4.5px 1.5px rgba(70, 221, 146, 0.773);
+
+}
+
+
 
 label {
     padding-top: 15px;
