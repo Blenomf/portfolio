@@ -4,42 +4,42 @@
     box-sizing: border-box;
 
 }
-
+/*Organização*/
 body {
     color: springgreen;
     background-color: black;
 
 }
-
+/*Organização*/
 nav {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
 
 }
-
+/*Organização*/
 nav a {
     text-decoration: none;
     color: springgreen;
     cursor: pointer;
 
 }
-
+/*Organização*/
 nav a:hover {
     color: #fff;
 }
-
+/*Organização*/
 nav ul {
     list-style-type: none;
     cursor: pointer;
 
 }
-
+/*Organização*/
 .container {
     padding: 0px 50px;
 
 }
-
+/*Organização*/
 header img {
     width: 100px;
     height: 100px;
@@ -47,13 +47,13 @@ header img {
     border: 5px solid rgba(25, 251, 138, 0.882);
     
 }
-
+/*Organização*/
 .imagem-header {
     text-align: center;
     padding-top: 55px;
 
 }
-
+/*Organização*/
 h1 {
     text-transform: uppercase;
     text-align: center;
@@ -66,19 +66,19 @@ h1 {
     border: none;
 
 }
-
+/*Organização*/
 h1 a {
     color: springgreen;
     text-decoration: none;
 
 }
-
+/*Organização*/
 h1 a:hover {
     color: #fff;
     cursor: pointer;
 
 }
-
+/*Organização*/
 h2 {
     text-transform: uppercase;
     text-align: center;
@@ -90,7 +90,7 @@ h2 {
     padding-bottom: 45px;
 
 }
-
+/*Organização*/
 h3 {
     color: #fff;
     text-transform: uppercase;
@@ -100,22 +100,22 @@ h3 {
     padding-top: 28px;
 
 }
-
+/*Organização*/
 p {
     color: rgb(203, 212, 220);
     
 }
-
+/*Organização*/
 p a {
     color: springgreen;
 
 }
-
+/*Organização*/
 p a:hover {
     color: blueviolet;
 
 }
-
+/*Organização*/
 footer {
     background-color: black;
     height: auto;
@@ -124,7 +124,7 @@ footer {
     color: #fff;
 
 }
-
+/*Organização*/
 .footer-content {
     display: flex;
     align-items: center;
@@ -133,7 +133,7 @@ footer {
     text-align: center;
 
 }
-
+/*Organização*/
 .sociais {
     list-style: none;
     display: flex;
@@ -142,29 +142,29 @@ footer {
     margin: 0.9rem 0 0.9rem 0;
 
 }
-
+/*Organização*/
 .sociais li {
     margin: 0 10px;
 
 }
-
+/*Organização*/
 .sociais a {
     text-decoration: none;
     color: #fff;
 
 }
-
+/*Organização*/
 .sociais a i {
     font-size: 1.1rem;
     transition: color .4s ease;
 
 }
-
+/*Organização*/
 .sociais a:hover i {
     color: springgreen;
     
 }
-
+/*Organização*/
 footer p{
     font-size: 12px;
     padding-top: 0px;
@@ -172,7 +172,7 @@ footer p{
     margin-top: 0px;
 
 }
-
+/*Organização*/
 footer a:hover {
     color: blueviolet;
 
